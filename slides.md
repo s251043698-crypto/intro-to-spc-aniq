@@ -450,3 +450,18 @@ Process stability check for Machine 3.
 <iframe data-src="media/plots/xbar_m3_200_338.html" width="100%" height="500px" style="border:none;"></iframe>
 ::: 
 ::::
+
+---
+
+### Stability Overview: All Machines
+**Comparison at 200kPa / 338K**
+
+| Machine | Status | Observations |
+| :--- | :--- | :--- |
+| Machine 1 | Fixed Limits | 200 |
+| Machine 2 | Fixed Limits | 200 |
+| Machine 3 | Validated | 200 |
+
+<iframe data-src="media/plots/xbar_fixed_m1.html" width="100%" height="400px" style="border:none;"></iframe>
+<iframe data-src="media/plots/xbar_fixed_m2.html" width="100%" height="400px" style="border:none;"></iframe>
+<iframe data-src="media/plots/xbar_fixed_m3.html" width="100%" height="400px" style="border:none;"></iframe>
