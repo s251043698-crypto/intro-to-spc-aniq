@@ -157,3 +157,48 @@ This boxplot illustrates the distribution of Math scores across different gender
 </iframe>
 :::
 ::::
+
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+### Control Chart: Machine 1
+**Conditions:** 200kPa, 338K.
+
+This X-bar chart monitors the stability of the production process for Machine 1.
+:::
+
+::: {.column width="50%"}
+<iframe data-src="media/plots/xbar_m1_200_338.html" width="100%" height="500px" style="border:none;"></iframe>
+:::
+::::
+
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+### Control Chart: Machine 2
+**Conditions:** 200kPa, 338K.
+
+This chart highlights the variation in PartLength for Machine 2.
+:::
+
+::: {.column width="50%"}
+<iframe data-src="media/plots/xbar_m2_200_338.html" width="100%" height="500px" style="border:none;"></iframe>
+:::
+::::
+
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+### Control Chart: Machine 3
+**Conditions:** 200kPa, 338K.
+
+Statistical control limits for Machine 3 under standard operating conditions.
+:::
+
+::: {.column width="50%"}
+<iframe data-src="media/plots/xbar_m3_200_338.html" width="100%" height="500px" style="border:none;"></iframe>
+:::
+::::
