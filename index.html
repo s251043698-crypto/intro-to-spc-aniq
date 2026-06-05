@@ -729,6 +729,271 @@ conditions.</p>
 </div>
 </div>
 </section>
+<section class="slide level1">
+
+<div class="columns">
+<div class="column" style="width:50%;">
+<h3 id="process-capability-machine-1">Process Capability: Machine 1</h3>
+<p><strong>Conditions:</strong> 200kPa, 338K</p>
+<p><strong>Specifications:</strong> - LSL: 45mm - USL: 55mm - Target:
+50mm</p>
+<p><strong>Analysis:</strong> - The histogram shows the distribution of
+produced parts against limits. - <span
+class="math inline">\(C_{pk}\)</span> measures how centered the process
+is relative to specs.</p>
+</div><div class="column" style="width:50%;">
+<iframe data-src="media/plots/cpk_m1_200_338.html" width="100%" height="500px" style="border:none;">
+</iframe>
+</div>
+</div>
+</section>
+<section class="slide level1">
+
+<div class="columns">
+<div class="column" style="width:50%;">
+<h3 id="revised-process-capability">Revised Process Capability</h3>
+<p><strong>Machine 1: Overall Performance</strong></p>
+<p>By analyzing all data points for Machine 1, we obtain a realistic
+view of the process spread:</p>
+<ul>
+<li><strong>Distribution:</strong> The histogram now reflects the actual
+variance in production.</li>
+<li><strong>Performance:</strong> This chart provides the valid <span
+class="math inline">\(C_{pk}\)</span> and <span
+class="math inline">\(C_p\)</span> indices used for quality
+assessment.</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<iframe data-src="media/plots/cpk_m1_full.html" width="100%" height="500px" style="border:none;">
+</iframe>
+</div>
+</div>
+</section>
+<section class="slide level1">
+
+<div class="columns">
+<div class="column" style="width:50%;">
+<h3 id="machine-1-process-capability">Machine 1 Process Capability</h3>
+<p><strong>Final Corrected Analysis</strong></p>
+<p>Using the full variation found in the Machine 1 dataset:</p>
+<ul>
+<li><strong>Targeting:</strong> Assessing performance against the 50mm
+target.</li>
+<li><strong>Spread:</strong> The actual standard deviation is used to
+calculate realistic indices.</li>
+<li><strong>Quality:</strong> High <span
+class="math inline">\(C_{pk}\)</span> suggests the process is well
+within limits.</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<iframe data-src="media/plots/cpk_m1_corrected.html" width="100%" height="500px" style="border:none;">
+</iframe>
+</div>
+</div>
+</section>
+<section class="slide level1">
+
+<div class="columns">
+<div class="column" style="width:50%;">
+<h3 id="machine-1-analysis-200kpa">Machine 1 Analysis (200kPa)</h3>
+<p><strong>Process Control Chart</strong></p>
+<p>This chart monitors the stability of Machine 1 when operating at a
+pressure of 200kPa.</p>
+<ul>
+<li><strong>Stability:</strong> Checks for points exceeding the 3-sigma
+control limits.</li>
+<li><strong>Trend:</strong> Identifies systematic shifts in production
+length.</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<iframe data-src="media/plots/xbar_m1_200.html" width="100%" height="500px" style="border:none;">
+</iframe>
+</div>
+</div>
+</section>
+<section class="slide level1">
+
+<div class="columns">
+<div class="column" style="width:50%;">
+<h3 id="process-capability-200kpa">Process Capability (200kPa)</h3>
+<p><strong>Machine 1 Performance</strong></p>
+<p>This distribution plot shows the process capability specifically at
+200kPa pressure.</p>
+<ul>
+<li><strong>Targeting:</strong> Centers around the 50mm
+requirement.</li>
+<li><strong>Precision:</strong> Evaluates how much of the production
+falls within the 45-55mm limits.</li>
+<li><strong>Metric:</strong> The <span
+class="math inline">\(C_{pk}\)</span> index quantifies the process
+potential.</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<iframe data-src="media/plots/cpk_m1_200.html" width="100%" height="500px" style="border:none;">
+</iframe>
+</div>
+</div>
+</section>
+<section class="slide level1">
+
+<div class="columns">
+<div class="column" style="width:40%;">
+<h3 id="process-capability-200kpa-1">Process Capability (200kPa)</h3>
+<p><strong>Machine 1 Performance</strong></p>
+<p>Statistical analysis of production quality at operating pressure =
+200kPa.</p>
+<ul>
+<li><strong>Metric:</strong> <span class="math inline">\(C_{pk}\)</span>
+index quantifies centering and spread.</li>
+<li><strong>Precision:</strong> The distribution relative to [45, 55]
+limits.</li>
+<li><strong>Stability:</strong> Evaluated through natural process
+variation.</li>
+</ul>
+</div><div class="column" style="width:60%;">
+<iframe data-src="media/plots/cpk_m1_200.html" width="100%" height="500px" style="border:none;">
+</iframe>
+</div>
+</div>
+</section>
+<section class="slide level1">
+
+<div class="columns">
+<div class="column" style="width:40%;">
+<h3 id="process-capability">Process Capability</h3>
+<p><strong>Machine 1 @ 200kPa</strong></p>
+<p>Statistical distribution and centering for Machine 1 under 200kPa
+pressure.</p>
+<ul>
+<li><strong>Target:</strong> 50mm</li>
+<li><strong>Limits:</strong> [45, 55]</li>
+<li><strong>Result:</strong> High <span
+class="math inline">\(C_{pk}\)</span> indicates the process is stable
+and well within specifications.</li>
+</ul>
+</div><div class="column" style="width:60%;">
+<iframe data-src="media/plots/cpk_m1_200.html" width="100%" height="500px" style="border:none;">
+</iframe>
+</div>
+</div>
+</section>
+<section class="slide level1">
+
+<div class="columns">
+<div class="column" style="width:40%;">
+<h3 id="process-capability-n200">Process Capability (n=200)</h3>
+<p><strong>Machine 1 @ 200kPa</strong></p>
+<p>Analysis focused on a specific sample size of 200 observations.</p>
+<ul>
+<li><strong>Sample Size:</strong> 200 units</li>
+<li><strong>Metrics:</strong> Centering and spread indices updated for
+the subset.</li>
+<li><strong>Status:</strong> Evaluation of process potential relative to
+[45, 55] limits.</li>
+</ul>
+</div><div class="column" style="width:60%;">
+<iframe data-src="media/plots/cpk_m1_200_forced.html" width="100%" height="500px" style="border:none;">
+</iframe>
+</div>
+</div>
+</section>
+<section class="slide level1">
+
+<div class="columns">
+<div class="column" style="width:40%;">
+<h3 id="process-capability-n200-1">Process Capability (n=200)</h3>
+<p><strong>Machine 2 @ 200kPa</strong></p>
+<p>Comparison analysis for Machine 2 under identical 200kPa
+conditions.</p>
+<ul>
+<li><strong>Sample Size:</strong> 200 units</li>
+<li><strong>Metric:</strong> Centering and spread for Machine 2.</li>
+<li><strong>Performance:</strong> Assessing if Machine 2 meets [45, 55]
+limits as effectively as Machine 1.</li>
+</ul>
+</div><div class="column" style="width:60%;">
+<iframe data-src="media/plots/cpk_m2_200_forced.html" width="100%" height="500px" style="border:none;">
+</iframe>
+</div>
+</div>
+</section>
+<section class="slide level1">
+
+<div class="columns">
+<div class="column" style="width:40%;">
+<h3 id="process-capability-n200-2">Process Capability (n=200)</h3>
+<p><strong>Machine 3 @ 200kPa</strong></p>
+<p>Comparison analysis for Machine 3 under identical 200kPa
+conditions.</p>
+<ul>
+<li><strong>Sample Size:</strong> 200 units</li>
+<li><strong>Metric:</strong> Centering and spread for Machine 3.</li>
+<li><strong>Performance:</strong> Assessing if Machine 3 meets [45, 55]
+limits as effectively as Machines 1 and 2.</li>
+</ul>
+</div><div class="column" style="width:60%;">
+<iframe data-src="media/plots/cpk_m3_200_forced.html" width="100%" height="500px" style="border:none;">
+</iframe>
+</div>
+</div>
+</section>
+<section class="slide level1">
+
+<div class="columns">
+<div class="column" style="width:40%;">
+<h3 id="control-chart-machine-1-1">Control Chart: Machine 1</h3>
+<p><strong>200kPa @ 338K</strong></p>
+<p>Process stability check for Machine 1.</p>
+<ul>
+<li><strong>Type:</strong> X-bar (Individuals)</li>
+<li><strong>Parameters:</strong> P=200, T=338</li>
+<li><strong>Status:</strong> Reviewing for points beyond control limits
+(UCL/LCL).</li>
+</ul>
+</div><div class="column" style="width:60%;">
+<iframe data-src="media/plots/xbar_m1_200_338.html" width="100%" height="500px" style="border:none;">
+</iframe>
+</div>
+</div>
+</section>
+<section class="slide level1">
+
+<div class="columns">
+<div class="column" style="width:40%;">
+<h3 id="control-chart-machine-2-1">Control Chart: Machine 2</h3>
+<p><strong>200kPa @ 338K</strong></p>
+<p>Process stability check for Machine 2.</p>
+<ul>
+<li><strong>Type:</strong> X-bar (Individuals)</li>
+<li><strong>Parameters:</strong> P=200, T=338</li>
+<li><strong>Status:</strong> Comparison against Machine 1
+performance.</li>
+</ul>
+</div><div class="column" style="width:60%;">
+<iframe data-src="media/plots/xbar_m2_200_338.html" width="100%" height="500px" style="border:none;">
+</iframe>
+</div>
+</div>
+</section>
+<section class="slide level1">
+
+<div class="columns">
+<div class="column" style="width:40%;">
+<h3 id="control-chart-machine-3-1">Control Chart: Machine 3</h3>
+<p><strong>200kPa @ 338K</strong></p>
+<p>Process stability check for Machine 3.</p>
+<ul>
+<li><strong>Type:</strong> X-bar (Individuals)</li>
+<li><strong>Parameters:</strong> P=200, T=338</li>
+<li><strong>Status:</strong> Evaluating consistency across the
+production line.</li>
+</ul>
+</div><div class="column" style="width:60%;">
+<iframe data-src="media/plots/xbar_m3_200_338.html" width="100%" height="500px" style="border:none;">
+</iframe>
+</div>
+</div>
+</section>
     </div>
   </div>
 

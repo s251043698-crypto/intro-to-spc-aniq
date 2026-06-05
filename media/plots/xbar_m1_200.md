@@ -1,0 +1,1 @@
+qcc(data, type='xbar')
